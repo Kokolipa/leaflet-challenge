@@ -1,4 +1,4 @@
-# Leaflet - Mapping [![Belly-Dashboard](https://img.shields.io/badge/Belly-Dashboard-black?style=flat&logo=atandt)](https://kokolipa.github.io/belly-button-challenge/) 
+# Leaflet - Mapping [![Leaflet-map](https://img.shields.io/badge/Belly-Dashboard-black?style=flat&logo=atandt)](https://kokolipa.github.io/leaflet-challenge/) 
 ### Project description:
 Creating a visual map representation of earthquake data from the United States Geological Survey, **USGS** for short, using Leaflet, D3, and Leaflet plugins. 
 
@@ -30,12 +30,21 @@ Creating a visual map representation of earthquake data from the United States G
 2. JavaScript - Backend
 3. CSS
 
-### Dashboard Image:
+### Map Images:
+Earthquakes & Tectonic plates
+![]()
+Heatmap & Tectonic plates
+![]()
+Global Topographic 
 ![]()
 
 #### Folder structure:
 ``` yml
 .
+├── Images
+│   ├── earthquakes.png
+│   ├── heatmap.png
+│   ├── topo_global.jpeg
 ├── static
 │   ├── CSS 
 │   |   ├── belly_dashboard.png
