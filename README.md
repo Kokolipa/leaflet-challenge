@@ -1,4 +1,4 @@
-# Leaflet - Mapping [![Leaflet-map](https://img.shields.io/badge/Belly-Dashboard-black?style=flat&logo=atandt)](https://kokolipa.github.io/leaflet-challenge/) 
+# Leaflet - Mapping [![Leaflet-map](https://img.shields.io/badge/Leaflet-Map-black?style=flat&logo=atandt)](https://kokolipa.github.io/leaflet-challenge/) 
 ### Project description:
 Creating a visual map representation of earthquake data from the United States Geological Survey, **USGS** for short, using Leaflet, D3, and Leaflet plugins. 
 
@@ -31,12 +31,12 @@ Creating a visual map representation of earthquake data from the United States G
 3. CSS
 
 ### Map Images:
-Earthquakes & Tectonic plates
-![]()
-Heatmap & Tectonic plates
-![]()
-Global Topographic 
-![]()
+#### Earthquakes & Tectonic plates
+![eathquakes](https://github.com/Kokolipa/leaflet-challenge/blob/lf_main/Images/earthquakes.png)
+#### Heatmap & Tectonic plates
+![heatmap](https://github.com/Kokolipa/leaflet-challenge/blob/lf_main/Images/heatmap.png)
+#### Global Topographic 
+![topo](https://github.com/Kokolipa/leaflet-challenge/blob/lf_main/Images/topo_global.jpeg)
 
 #### Folder structure:
 ``` yml
