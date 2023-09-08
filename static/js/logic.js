@@ -45,7 +45,7 @@ function chooseColor(depth) {
     else if (depth <= 30) return "#F67280";
     else if (depth <= 50) return "#C06C84";
     else if (depth <= 70) return "#6C5B7B";
-    else if (depth <= 90) return "#6C5B7B";
+    else if (depth <= 90) return "#4B3B59";
     else return "black";
 }; 
 
