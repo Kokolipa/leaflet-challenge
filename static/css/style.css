@@ -1,0 +1,53 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#map,
+body,
+html {
+  height: 100%;
+}
+
+/* CSS for legend */
+.info.legend {
+  background: white;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 150px; /* Adjust the width as needed */
+  display: flex;
+  flex-direction: column;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  font-weight: 500;
+  font-family:'Times New Roman', Times, serif;
+}
+.legend-value {
+  margin-left: 10px;
+}
+
+.legend-color {
+  color: transparent;
+}
+
+/* CSS to enhance the size of the layer control */
+.leaflet-control-layers {
+  background-color: rgba(255, 255, 255, 0.7); /* Background color with some transparency */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 10px; /* Adjust the font size as needed */
+}
+
+/* Style the checkboxes for the layers */
+.leaflet-control-layers-overlays label {
+  font-size: 20px; /* Adjust the font size for overlay labels */
+}
+.leaflet-control-layers-base,
+.leaflet-control-layers-overlays {
+  font-size: 18px;
+}
