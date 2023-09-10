@@ -169,7 +169,7 @@ d3.json(geoData).then(function (data) {
 
         // * Returning error OR NaN magnitude values or zero magnitude values as a warning
         } else {
-            console.warn("Invalid magnitude at index", i, "with value", magnitude);
+            console.log("Invalid magnitude at index", i, "with value", magnitude);
         };
     };
 
