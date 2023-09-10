@@ -212,7 +212,6 @@ d3.json(geoData).then(function (data) {
             radius: 15,
             blur: 4
           }).addTo(densityMap);
-          heat.bringToFront()
 });
 
 
