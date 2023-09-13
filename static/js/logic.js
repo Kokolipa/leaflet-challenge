@@ -36,7 +36,11 @@ let tectonicData = "https://raw.githubusercontent.com/fraxen/tectonicplates/mast
 // ? Defining the circle size function
 function circleSize(magnitude) {
     // * Transforming the negative values to positive values using absolute value
-    return Math.sqrt(Math.abs(magnitude)) * 100000
+    return getRadius(magnitude);
+}
+
+function getRadius(magnitude) {
+    return Math.sqrt(Math.abs(magnitude)) * 90000;
 }
 
 // ? Defining the color function
@@ -212,6 +216,7 @@ d3.json(geoData).then(function (data) {
             radius: 15,
             blur: 4
           }).addTo(densityMap);
+          
 });
 
 
